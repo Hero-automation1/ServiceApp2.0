@@ -91,6 +91,13 @@ public class ServiceLoginPageStepDefinition extends BaseTest {
 			otp.getSubmitButtonState();
 		}
 	}
+	
+	@And("Clear the OTP")
+	public void clearOTP() {
+		Library.threadSleep(1000);
+		otp.clearOTP();
+		Library.threadSleep(1000);
+	}
 
 	@And("Enter the Submit button")
 	public void clcikSubmitBtn() {

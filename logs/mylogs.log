@@ -1,332 +1,340 @@
-[DEBUG] 2024-10-26 15:32:25.009 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:32:25.010 [main] Log - ==========================      Configuring Extent Report      =====================
-[DEBUG] 2024-10-26 15:32:25.011 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:32:25.011 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:32:25.011 [main] Log -    *********************   Launching Hero Service UI Test App    ******************
-[DEBUG] 2024-10-26 15:32:25.011 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:33:35.852 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:33:35.853 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:33:35.853 [main] Log -                    Start -> Test -> Login with valid credentails and RemeberMe check    
-[DEBUG] 2024-10-26 15:33:35.853 [main] Log -                    ===============================================
-[INFO ] 2024-10-26 15:33:44.974 [main] Log - Value send Successfully : User name
-[INFO ] 2024-10-26 15:33:48.489 [main] Log - Element is clickable : Remember Me Checkbox
-[INFO ] 2024-10-26 15:33:50.634 [main] Log - Element is clickable : Send OTP Button
-[INFO ] 2024-10-26 15:33:58.003 [main] Log - Field is visible : content decs : Resend OTP, in 54s
-[INFO ] 2024-10-26 15:33:58.004 [main] Log - Resend Time : 54
-[INFO ] 2024-10-26 15:34:04.189 [main] Log - Field is visible  : OTP text
-[INFO ] 2024-10-26 15:34:06.265 [main] Log - Field is visible  : Hero Image
-[INFO ] 2024-10-26 15:34:09.353 [main] Log - Field is visible : SubmitButtonState : false
-[INFO ] 2024-10-26 15:34:09.354 [main] Log - Submit button is Disabled
-[INFO ] 2024-10-26 15:34:14.841 [main] Log - Enter the OTP Digit as :1
-[INFO ] 2024-10-26 15:34:16.741 [main] Log - Enter the OTP Digit as :2
-[INFO ] 2024-10-26 15:34:19.041 [main] Log - Enter the OTP Digit as :3
-[INFO ] 2024-10-26 15:34:20.874 [main] Log - Enter the OTP Digit as :4
-[INFO ] 2024-10-26 15:34:23.192 [main] Log - Enter the OTP Digit as :5
-[INFO ] 2024-10-26 15:34:25.116 [main] Log - Enter the OTP Digit as :6
-[INFO ] 2024-10-26 15:34:28.999 [main] Log - Field is visible : SubmitButtonState : true
-[INFO ] 2024-10-26 15:34:29.001 [main] Log - Submit button is Enabled
-[INFO ] 2024-10-26 15:34:30.555 [main] Log - Field is visible  : Hero Image
-[INFO ] 2024-10-26 15:34:33.192 [main] Log - Element is clickable : Hero Image
-[INFO ] 2024-10-26 15:34:37.289 [main] Log - Element is clickable : Submit Button
-[INFO ] 2024-10-26 15:34:52.763 [main] Log - Element is clickable : logout Button
-[INFO ] 2024-10-26 15:34:52.765 [main] Log - Clicked on logout Button
-[INFO ] 2024-10-26 15:34:59.012 [main] Log - Element is clickable : Logout verification Button
-[INFO ] 2024-10-26 15:35:07.111 [main] Log - Element is clickable : Remember Me Checkbox
-[INFO ] 2024-10-26 15:35:08.559 [main] Log - Field is visible : User Id : LAAL11979
-[INFO ] 2024-10-26 15:35:08.559 [main] Log - expecteduserId : LAAL11979
-[INFO ] 2024-10-26 15:35:08.559 [main] Log - actualUserId : LAAL11979
-[INFO ] 2024-10-26 15:35:08.559 [main] Log - Actual value :  Expected value is Match
-[DEBUG] 2024-10-26 15:35:08.603 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:35:08.604 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:35:08.605 [main] Log -                    Start -> Test -> Login with valid credentails and validate customer mobile number with Special characters, Alpahbates, more tha 10 digits    
-[DEBUG] 2024-10-26 15:35:08.605 [main] Log -                    ===============================================
-[INFO ] 2024-10-26 15:35:13.142 [main] Log - Value send Successfully : User name
-[INFO ] 2024-10-26 15:35:15.575 [main] Log - Element is clickable : Send OTP Button
-[INFO ] 2024-10-26 15:35:20.255 [main] Log - Field is visible  : OTP text
-[INFO ] 2024-10-26 15:35:22.311 [main] Log - Field is visible  : Hero Image
-[INFO ] 2024-10-26 15:35:25.381 [main] Log - Field is visible : SubmitButtonState : false
-[INFO ] 2024-10-26 15:35:25.381 [main] Log - Submit button is Disabled
-[INFO ] 2024-10-26 15:35:31.445 [main] Log - Enter the OTP Digit as :1
-[INFO ] 2024-10-26 15:35:33.337 [main] Log - Enter the OTP Digit as :2
-[INFO ] 2024-10-26 15:35:35.644 [main] Log - Enter the OTP Digit as :3
-[INFO ] 2024-10-26 15:35:37.467 [main] Log - Enter the OTP Digit as :4
-[INFO ] 2024-10-26 15:35:38.754 [main] Log - Enter the OTP Digit as :5
-[INFO ] 2024-10-26 15:35:39.658 [main] Log - Enter the OTP Digit as :6
-[INFO ] 2024-10-26 15:35:42.904 [main] Log - Field is visible : SubmitButtonState : true
-[INFO ] 2024-10-26 15:35:42.905 [main] Log - Submit button is Enabled
-[INFO ] 2024-10-26 15:35:44.103 [main] Log - Field is visible  : Hero Image
-[INFO ] 2024-10-26 15:35:46.906 [main] Log - Element is clickable : Hero Image
-[INFO ] 2024-10-26 15:35:50.277 [main] Log - Element is clickable : Submit Button
-[INFO ] 2024-10-26 15:35:54.515 [main] Log - Field is visible  : Token Creation
-[INFO ] 2024-10-26 15:35:56.406 [main] Log - Field is visible  : Scan To Procced Text
-[INFO ] 2024-10-26 15:35:59.152 [main] Log - Element is clickable : Scan Button
-[INFO ] 2024-10-26 15:36:05.048 [main] Log - Element is clickable : Camera Shutter Button
-[INFO ] 2024-10-26 15:36:10.882 [main] Log - Element is clickable : Camera Shutter Button
-[INFO ] 2024-10-26 15:36:26.982 [main] Log - Element is clickable : No Registration Number? Link
-[INFO ] 2024-10-26 15:36:46.578 [main] Log - Value send Successfully : Customer mobile Number
-[INFO ] 2024-10-26 15:36:49.757 [main] Log - Field is visible : Customer mobile Number : 
-[INFO ] 2024-10-26 15:36:49.758 [main] Log - Not able Entered Customer mobile number
-[INFO ] 2024-10-26 15:37:06.796 [main] Log - Element is clickable : No Registration Number? Link
-[INFO ] 2024-10-26 15:37:26.543 [main] Log - Value send Successfully : Customer mobile Number
-[INFO ] 2024-10-26 15:37:29.644 [main] Log - Field is visible : Customer mobile Number : 
-[INFO ] 2024-10-26 15:37:29.644 [main] Log - Not able Entered Customer mobile number
-[INFO ] 2024-10-26 15:37:46.703 [main] Log - Element is clickable : No Registration Number? Link
-[INFO ] 2024-10-26 15:38:06.331 [main] Log - Value send Successfully : Customer mobile Number
-[INFO ] 2024-10-26 15:38:09.551 [main] Log - Field is visible : Customer mobile Number : 1234566777
-[INFO ] 2024-10-26 15:38:09.551 [main] Log - Entered Customer mobile number is :1234566777 and its length is :10
-[INFO ] 2024-10-26 15:38:26.566 [main] Log - Element is clickable : No Registration Number? Link
-[INFO ] 2024-10-26 15:38:46.043 [main] Log - Value send Successfully : Customer mobile Number
-[INFO ] 2024-10-26 15:38:49.141 [main] Log - Field is visible : Customer mobile Number : 9178691691
-[INFO ] 2024-10-26 15:38:49.142 [main] Log - Entered Customer mobile number is :9178691691 and its length is :10
-[INFO ] 2024-10-26 15:39:06.293 [main] Log - Element is clickable : logout Button
-[INFO ] 2024-10-26 15:39:06.293 [main] Log - Clicked on logout Button
-[INFO ] 2024-10-26 15:39:12.532 [main] Log - Element is clickable : Logout verification Button
-[DEBUG] 2024-10-26 15:39:13.581 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:39:13.581 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:39:13.581 [main] Log -                    Start -> Test -> Login with valid credentails, validate camera cancel button, Scan and Scan again functionality    
-[DEBUG] 2024-10-26 15:39:13.581 [main] Log -                    ===============================================
-[INFO ] 2024-10-26 15:39:18.454 [main] Log - Value send Successfully : User name
-[INFO ] 2024-10-26 15:39:20.825 [main] Log - Element is clickable : Send OTP Button
-[INFO ] 2024-10-26 15:39:23.316 [main] Log - Field is visible  : OTP text
-[INFO ] 2024-10-26 15:39:24.883 [main] Log - Field is visible  : Hero Image
-[INFO ] 2024-10-26 15:39:28.467 [main] Log - Field is visible : SubmitButtonState : false
-[INFO ] 2024-10-26 15:39:28.468 [main] Log - Submit button is Disabled
-[INFO ] 2024-10-26 15:39:34.411 [main] Log - Enter the OTP Digit as :1
-[INFO ] 2024-10-26 15:39:36.265 [main] Log - Enter the OTP Digit as :2
-[INFO ] 2024-10-26 15:39:38.578 [main] Log - Enter the OTP Digit as :3
-[INFO ] 2024-10-26 15:39:40.405 [main] Log - Enter the OTP Digit as :4
-[INFO ] 2024-10-26 15:39:42.186 [main] Log - Enter the OTP Digit as :5
-[INFO ] 2024-10-26 15:39:43.853 [main] Log - Enter the OTP Digit as :6
-[INFO ] 2024-10-26 15:39:46.907 [main] Log - Field is visible : SubmitButtonState : true
-[INFO ] 2024-10-26 15:39:46.909 [main] Log - Submit button is Enabled
-[INFO ] 2024-10-26 15:39:48.080 [main] Log - Field is visible  : Hero Image
-[INFO ] 2024-10-26 15:39:50.830 [main] Log - Element is clickable : Hero Image
-[INFO ] 2024-10-26 15:39:54.186 [main] Log - Element is clickable : Submit Button
-[INFO ] 2024-10-26 15:39:57.450 [main] Log - Field is visible  : Token Creation
-[INFO ] 2024-10-26 15:39:58.477 [main] Log - Field is visible  : Scan To Procced Text
-[INFO ] 2024-10-26 15:40:01.407 [main] Log - Element is clickable : Scan Button
-[INFO ] 2024-10-26 15:40:05.328 [main] Log - Click Camera Cancel button
-[INFO ] 2024-10-26 15:40:12.024 [main] Log - Element is clickable : Scan Button
-[INFO ] 2024-10-26 15:40:17.577 [main] Log - Element is clickable : Camera Shutter Button
-[INFO ] 2024-10-26 15:40:29.163 [main] Log - Element is clickable : Camera Shutter Button
-[INFO ] 2024-10-26 15:40:36.270 [main] Log - Element is clickable : Scan Again Button
-[INFO ] 2024-10-26 15:40:41.740 [main] Log - Element is clickable : Camera Shutter Button
-[INFO ] 2024-10-26 15:40:53.364 [main] Log - Element is clickable : Camera Shutter Button
-[INFO ] 2024-10-26 15:41:08.144 [main] Log - Element is clickable : logout Button
-[INFO ] 2024-10-26 15:41:08.145 [main] Log - Clicked on logout Button
-[INFO ] 2024-10-26 15:41:14.430 [main] Log - Element is clickable : Logout verification Button
-[DEBUG] 2024-10-26 15:41:15.501 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:41:15.501 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:41:15.502 [main] Log -                    Start -> Test -> Login with valid credentails and checking the online page    
-[DEBUG] 2024-10-26 15:41:15.502 [main] Log -                    ===============================================
-[INFO ] 2024-10-26 15:41:19.873 [main] Log - Value send Successfully : User name
-[INFO ] 2024-10-26 15:41:22.255 [main] Log - Element is clickable : Send OTP Button
-[INFO ] 2024-10-26 15:41:28.414 [main] Log - Field is visible  : OTP text
-[INFO ] 2024-10-26 15:41:29.855 [main] Log - Field is visible  : Hero Image
-[INFO ] 2024-10-26 15:41:32.911 [main] Log - Field is visible : SubmitButtonState : false
-[INFO ] 2024-10-26 15:41:32.912 [main] Log - Submit button is Disabled
-[INFO ] 2024-10-26 15:41:39.023 [main] Log - Enter the OTP Digit as :1
-[INFO ] 2024-10-26 15:41:40.998 [main] Log - Enter the OTP Digit as :2
-[INFO ] 2024-10-26 15:41:43.284 [main] Log - Enter the OTP Digit as :3
-[INFO ] 2024-10-26 15:41:45.102 [main] Log - Enter the OTP Digit as :4
-[INFO ] 2024-10-26 15:41:47.424 [main] Log - Enter the OTP Digit as :5
-[INFO ] 2024-10-26 15:41:49.247 [main] Log - Enter the OTP Digit as :6
-[INFO ] 2024-10-26 15:41:52.556 [main] Log - Field is visible : SubmitButtonState : true
-[INFO ] 2024-10-26 15:41:52.557 [main] Log - Submit button is Enabled
-[INFO ] 2024-10-26 15:41:53.690 [main] Log - Field is visible  : Hero Image
-[INFO ] 2024-10-26 15:41:56.513 [main] Log - Element is clickable : Hero Image
-[INFO ] 2024-10-26 15:42:00.532 [main] Log - Element is clickable : Submit Button
-[INFO ] 2024-10-26 15:42:13.629 [main] Log - Element is clickable : online Bookings Footer Link
-[INFO ] 2024-10-26 15:42:24.623 [main] Log - Field is visible  : Online Bookings Header
-[INFO ] 2024-10-26 15:42:26.049 [main] Log - Field is visible : On Booking text : Currently, there is no booking available for display
-[INFO ] 2024-10-26 15:42:26.050 [main] Log - actualText : Currently, there is no booking available for display
-[INFO ] 2024-10-26 15:42:26.051 [main] Log - Expected Text : Currently, there is no booking available for display
-[INFO ] 2024-10-26 15:42:26.051 [main] Log - Actual value :  Expected value is Match
-[INFO ] 2024-10-26 15:42:37.649 [main] Log - Element is clickable : Logout Button
-[INFO ] 2024-10-26 15:42:43.882 [main] Log - Element is clickable : Logout verification Button
-[DEBUG] 2024-10-26 15:42:44.913 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:42:44.913 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:42:44.914 [main] Log -                    Start -> Test -> Login with valid credentails and checking the online page search box for different enteries    
-[DEBUG] 2024-10-26 15:42:44.914 [main] Log -                    ===============================================
-[INFO ] 2024-10-26 15:42:49.616 [main] Log - Value send Successfully : User name
-[INFO ] 2024-10-26 15:42:51.905 [main] Log - Element is clickable : Send OTP Button
-[INFO ] 2024-10-26 15:42:58.143 [main] Log - Field is visible  : OTP text
-[INFO ] 2024-10-26 15:43:00.166 [main] Log - Field is visible  : Hero Image
-[INFO ] 2024-10-26 15:43:02.734 [main] Log - Field is visible : SubmitButtonState : false
-[INFO ] 2024-10-26 15:43:02.734 [main] Log - Submit button is Disabled
-[INFO ] 2024-10-26 15:43:08.701 [main] Log - Enter the OTP Digit as :1
-[INFO ] 2024-10-26 15:43:10.074 [main] Log - Enter the OTP Digit as :2
-[INFO ] 2024-10-26 15:43:11.383 [main] Log - Enter the OTP Digit as :3
-[INFO ] 2024-10-26 15:43:12.693 [main] Log - Enter the OTP Digit as :4
-[INFO ] 2024-10-26 15:43:14.634 [main] Log - Enter the OTP Digit as :5
-[INFO ] 2024-10-26 15:43:16.273 [main] Log - Enter the OTP Digit as :6
-[INFO ] 2024-10-26 15:43:19.421 [main] Log - Field is visible : SubmitButtonState : true
-[INFO ] 2024-10-26 15:43:19.422 [main] Log - Submit button is Enabled
-[INFO ] 2024-10-26 15:43:21.400 [main] Log - Field is visible  : Hero Image
-[INFO ] 2024-10-26 15:43:23.476 [main] Log - Element is clickable : Hero Image
-[INFO ] 2024-10-26 15:43:26.681 [main] Log - Element is clickable : Submit Button
-[INFO ] 2024-10-26 15:43:32.424 [main] Log - Element is clickable : online Bookings Footer Link
-[INFO ] 2024-10-26 15:43:43.413 [main] Log - Field is visible  : Online Bookings Header
-[INFO ] 2024-10-26 15:43:44.843 [main] Log - Field is visible : On Booking text : Currently, there is no booking available for display
-[INFO ] 2024-10-26 15:43:44.844 [main] Log - actualText : Currently, there is no booking available for display
-[INFO ] 2024-10-26 15:43:44.844 [main] Log - Expected Text : Currently, there is no booking available for display
-[INFO ] 2024-10-26 15:43:44.844 [main] Log - Actual value :  Expected value is Match
-[INFO ] 2024-10-26 15:43:51.289 [main] Log - Value send Successfully : Enter in search box
-[INFO ] 2024-10-26 15:43:54.729 [main] Log - Element is clickable : Search Button
-[INFO ] 2024-10-26 15:43:57.208 [main] Log - Field is visible : On Booking text : Currently, there is no booking available for display
-[INFO ] 2024-10-26 15:43:58.873 [main] Log - Field is visible : Search box text : Satyapal
-[INFO ] 2024-10-26 15:43:58.874 [main] Log - Actual value :  Expected value is Match
-[INFO ] 2024-10-26 15:44:05.804 [main] Log - Value send Successfully : Enter in search box
-[INFO ] 2024-10-26 15:44:09.252 [main] Log - Element is clickable : Search Button
-[INFO ] 2024-10-26 15:44:11.657 [main] Log - Field is visible : On Booking text : Currently, there is no booking available for display
-[INFO ] 2024-10-26 15:44:13.153 [main] Log - Field is visible : Search box text : SatyapalPassion+
-[INFO ] 2024-10-26 15:44:13.154 [main] Log - Actual value :  Expected value is Match
-[INFO ] 2024-10-26 15:44:19.871 [main] Log - Value send Successfully : Enter in search box
-[INFO ] 2024-10-26 15:44:23.410 [main] Log - Element is clickable : Search Button
-[INFO ] 2024-10-26 15:44:25.940 [main] Log - Field is visible : On Booking text : Currently, there is no booking available for display
-[INFO ] 2024-10-26 15:44:27.373 [main] Log - Field is visible : Search box text : AS15S4616
-[INFO ] 2024-10-26 15:44:27.374 [main] Log - Actual value :  Expected value is Match
-[INFO ] 2024-10-26 15:44:33.669 [main] Log - Value send Successfully : Enter in search box
-[INFO ] 2024-10-26 15:44:37.206 [main] Log - Element is clickable : Search Button
-[INFO ] 2024-10-26 15:44:39.675 [main] Log - Field is visible : On Booking text : Currently, there is no booking available for display
-[INFO ] 2024-10-26 15:44:41.143 [main] Log - Field is visible : Search box text : 8687897979
-[INFO ] 2024-10-26 15:44:41.144 [main] Log - Actual value :  Expected value is Match
-[INFO ] 2024-10-26 15:44:52.686 [main] Log - Element is clickable : Logout Button
-[INFO ] 2024-10-26 15:44:58.930 [main] Log - Element is clickable : Logout verification Button
-[DEBUG] 2024-10-26 15:44:59.973 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:44:59.973 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:44:59.973 [main] Log -                    Start -> Test -> Login with valid credentails with Owner mobile number    
-[DEBUG] 2024-10-26 15:44:59.973 [main] Log -                    ===============================================
-[INFO ] 2024-10-26 15:45:04.636 [main] Log - Value send Successfully : User name
-[INFO ] 2024-10-26 15:45:06.980 [main] Log - Element is clickable : Send OTP Button
-[INFO ] 2024-10-26 15:45:13.124 [main] Log - Field is visible  : OTP text
-[INFO ] 2024-10-26 15:45:14.517 [main] Log - Field is visible  : Hero Image
-[INFO ] 2024-10-26 15:45:17.651 [main] Log - Field is visible : SubmitButtonState : false
-[INFO ] 2024-10-26 15:45:17.651 [main] Log - Submit button is Disabled
-[INFO ] 2024-10-26 15:45:23.731 [main] Log - Enter the OTP Digit as :1
-[INFO ] 2024-10-26 15:45:25.655 [main] Log - Enter the OTP Digit as :2
-[INFO ] 2024-10-26 15:45:26.905 [main] Log - Enter the OTP Digit as :3
-[INFO ] 2024-10-26 15:45:28.810 [main] Log - Enter the OTP Digit as :4
-[INFO ] 2024-10-26 15:45:31.099 [main] Log - Enter the OTP Digit as :5
-[INFO ] 2024-10-26 15:45:32.923 [main] Log - Enter the OTP Digit as :6
-[INFO ] 2024-10-26 15:45:36.281 [main] Log - Field is visible : SubmitButtonState : true
-[INFO ] 2024-10-26 15:45:36.281 [main] Log - Submit button is Enabled
-[INFO ] 2024-10-26 15:45:37.463 [main] Log - Field is visible  : Hero Image
-[INFO ] 2024-10-26 15:45:40.233 [main] Log - Element is clickable : Hero Image
-[INFO ] 2024-10-26 15:45:43.622 [main] Log - Element is clickable : Submit Button
-[INFO ] 2024-10-26 15:45:47.805 [main] Log - Field is visible  : Token Creation
-[INFO ] 2024-10-26 15:45:49.757 [main] Log - Field is visible  : Scan To Procced Text
-[INFO ] 2024-10-26 15:45:52.417 [main] Log - Element is clickable : Scan Button
-[INFO ] 2024-10-26 15:45:57.698 [main] Log - Element is clickable : Camera Shutter Button
-[INFO ] 2024-10-26 15:46:02.339 [main] Log - Element is clickable : Camera Shutter Button
-[INFO ] 2024-10-26 15:46:18.429 [main] Log - Element is clickable : No Registration Number? Link
-[INFO ] 2024-10-26 15:46:38.093 [main] Log - Value send Successfully : Customer mobile Number
-[INFO ] 2024-10-26 15:46:41.395 [main] Log - Field is visible : Customer mobile Number : 7503496897
-[INFO ] 2024-10-26 15:46:41.396 [main] Log - Entered Customer mobile number is :7503496897 and its length is :10
-[INFO ] 2024-10-26 15:46:48.203 [main] Log - Element is clickable : Next Button
-[INFO ] 2024-10-26 15:46:52.780 [main] Log - Field is visible : Bike Registration Number : HR26EZ8245
-[INFO ] 2024-10-26 15:46:54.420 [main] Log - Field is visible : Bike Model : SPLENDOR +
-[INFO ] 2024-10-26 15:46:56.114 [main] Log - Field is visible : Bike Owner Name : VIJENDRA KUMAR
-[INFO ] 2024-10-26 15:46:57.703 [main] Log - Field is visible : Bike Owner Mobile Number : 7503496897
-[INFO ] 2024-10-26 15:47:01.617 [main] Log - Element is clickable : Token Selection
-[INFO ] 2024-10-26 15:47:03.777 [main] Log - Element is clickable : Assign Next Button
-[INFO ] 2024-10-26 15:47:06.520 [main] Log - Element is clickable : Assign Token
-[INFO ] 2024-10-26 15:47:10.143 [main] Log - Field is visible : Assigned Token Number : 14
-[INFO ] 2024-10-26 15:47:11.225 [main] Log - Field is visible : Assigned Bike Registration Number : HR 26 EZ 8245 
-[INFO ] 2024-10-26 15:47:12.442 [main] Log - Field is visible : Assigned Bike Model : SPLENDOR +
-[INFO ] 2024-10-26 15:47:13.627 [main] Log - Element is clickable : Ok button
-[INFO ] 2024-10-26 15:47:16.576 [main] Log - Element is clickable : Todays Token Link Footer Link
-[INFO ] 2024-10-26 15:47:20.517 [main] Log - Field is visible : ticket Number : 14
-[INFO ] 2024-10-26 15:47:22.609 [main] Log - Field is visible : Bike Model : SPLENDOR +
-[INFO ] 2024-10-26 15:47:24.550 [main] Log - Field is visible : Bike Registration Number : HR26EZ8245
-[INFO ] 2024-10-26 15:47:26.733 [main] Log - Field is visible : Bike Owner Mobile Number : 7503496897
-[INFO ] 2024-10-26 15:47:28.790 [main] Log - Field is visible : Bike Owner Name : VIJENDRA KUMAR
-[INFO ] 2024-10-26 15:47:41.143 [main] Log - Element is clickable : logout Button
-[INFO ] 2024-10-26 15:47:47.308 [main] Log - Element is clickable : Logout verification Button
-[DEBUG] 2024-10-26 15:47:48.339 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:47:48.339 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:47:48.340 [main] Log -                    Start -> Test -> Login with valid credentails and valid Vehicle registration number    
-[DEBUG] 2024-10-26 15:47:48.340 [main] Log -                    ===============================================
-[INFO ] 2024-10-26 15:47:53.415 [main] Log - Value send Successfully : User name
-[INFO ] 2024-10-26 15:47:55.825 [main] Log - Element is clickable : Send OTP Button
-[INFO ] 2024-10-26 15:48:01.613 [main] Log - Field is visible  : OTP text
-[INFO ] 2024-10-26 15:48:03.216 [main] Log - Field is visible  : Hero Image
-[INFO ] 2024-10-26 15:48:05.709 [main] Log - Field is visible : SubmitButtonState : false
-[INFO ] 2024-10-26 15:48:05.710 [main] Log - Submit button is Disabled
-[INFO ] 2024-10-26 15:48:10.903 [main] Log - Enter the OTP Digit as :1
-[INFO ] 2024-10-26 15:48:12.858 [main] Log - Enter the OTP Digit as :2
-[INFO ] 2024-10-26 15:48:14.683 [main] Log - Enter the OTP Digit as :3
-[INFO ] 2024-10-26 15:48:16.513 [main] Log - Enter the OTP Digit as :4
-[INFO ] 2024-10-26 15:48:17.837 [main] Log - Enter the OTP Digit as :5
-[INFO ] 2024-10-26 15:48:19.047 [main] Log - Enter the OTP Digit as :6
-[INFO ] 2024-10-26 15:48:22.223 [main] Log - Field is visible : SubmitButtonState : true
-[INFO ] 2024-10-26 15:48:22.223 [main] Log - Submit button is Enabled
-[INFO ] 2024-10-26 15:48:23.911 [main] Log - Field is visible  : Hero Image
-[INFO ] 2024-10-26 15:48:26.037 [main] Log - Element is clickable : Hero Image
-[INFO ] 2024-10-26 15:48:29.495 [main] Log - Element is clickable : Submit Button
-[INFO ] 2024-10-26 15:48:33.517 [main] Log - Field is visible  : Token Creation
-[INFO ] 2024-10-26 15:48:35.035 [main] Log - Field is visible  : Scan To Procced Text
-[INFO ] 2024-10-26 15:48:39.482 [main] Log - Element is clickable : Scan Button
-[INFO ] 2024-10-26 15:48:44.557 [main] Log - Element is clickable : Camera Shutter Button
-[INFO ] 2024-10-26 15:48:49.654 [main] Log - Element is clickable : Camera Shutter Button
-[INFO ] 2024-10-26 15:48:59.975 [main] Log - Value send Successfully : Bike Registration Numer
-[INFO ] 2024-10-26 15:49:02.492 [main] Log - Element is clickable : Next Button
-[INFO ] 2024-10-26 15:49:07.223 [main] Log - Field is visible : Bike Registration Number : AP40D9231
-[INFO ] 2024-10-26 15:49:08.765 [main] Log - Field is visible : Bike Model : PASSION +
-[INFO ] 2024-10-26 15:49:10.238 [main] Log - Field is visible : Bike Owner Name :  BASHA SHAIK
-[INFO ] 2024-10-26 15:49:11.835 [main] Log - Field is visible : Bike Owner Mobile Number : 9966214058
-[INFO ] 2024-10-26 15:49:15.536 [main] Log - Element is clickable : Token Selection
-[INFO ] 2024-10-26 15:49:17.705 [main] Log - Element is clickable : Assign Next Button
-[INFO ] 2024-10-26 15:49:20.428 [main] Log - Element is clickable : Assign Token
-[INFO ] 2024-10-26 15:49:22.421 [main] Log - Token Already assigned!!!
-[INFO ] 2024-10-26 15:49:34.057 [main] Log - Element is clickable : logout Button
-[INFO ] 2024-10-26 15:49:34.057 [main] Log - Clicked on logout Button
-[INFO ] 2024-10-26 15:49:40.192 [main] Log - Element is clickable : Logout verification Button
-[DEBUG] 2024-10-26 15:49:41.210 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:49:41.210 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:49:41.210 [main] Log -                    Start -> Test -> Login with valid credentails and validate Todays Token info    
-[DEBUG] 2024-10-26 15:49:41.210 [main] Log -                    ===============================================
-[INFO ] 2024-10-26 15:49:45.007 [main] Log - Value send Successfully : User name
-[INFO ] 2024-10-26 15:49:47.327 [main] Log - Element is clickable : Send OTP Button
-[INFO ] 2024-10-26 15:49:53.563 [main] Log - Field is visible  : OTP text
-[INFO ] 2024-10-26 15:49:54.947 [main] Log - Field is visible  : Hero Image
-[INFO ] 2024-10-26 15:49:57.703 [main] Log - Field is visible : SubmitButtonState : false
-[INFO ] 2024-10-26 15:49:57.703 [main] Log - Submit button is Disabled
-[INFO ] 2024-10-26 15:50:03.498 [main] Log - Enter the OTP Digit as :1
-[INFO ] 2024-10-26 15:50:05.383 [main] Log - Enter the OTP Digit as :2
-[INFO ] 2024-10-26 15:50:07.219 [main] Log - Enter the OTP Digit as :3
-[INFO ] 2024-10-26 15:50:09.558 [main] Log - Enter the OTP Digit as :4
-[INFO ] 2024-10-26 15:50:11.399 [main] Log - Enter the OTP Digit as :5
-[INFO ] 2024-10-26 15:50:13.716 [main] Log - Enter the OTP Digit as :6
-[INFO ] 2024-10-26 15:50:16.731 [main] Log - Field is visible : SubmitButtonState : true
-[INFO ] 2024-10-26 15:50:16.731 [main] Log - Submit button is Enabled
-[INFO ] 2024-10-26 15:50:17.947 [main] Log - Field is visible  : Hero Image
-[INFO ] 2024-10-26 15:50:21.573 [main] Log - Element is clickable : Hero Image
-[INFO ] 2024-10-26 15:50:24.721 [main] Log - Element is clickable : Submit Button
-[INFO ] 2024-10-26 15:50:28.895 [main] Log - Field is visible  : Token Creation
-[INFO ] 2024-10-26 15:50:30.643 [main] Log - Field is visible  : Scan To Procced Text
-[INFO ] 2024-10-26 15:50:33.175 [main] Log - Field is visible : TokeNumber : 6
-[INFO ] 2024-10-26 15:50:33.175 [main] Log - Today's Token number are :6
-[INFO ] 2024-10-26 15:50:34.794 [main] Log - Element is clickable : Todays Token Link Link
-[INFO ] 2024-10-26 15:50:39.111 [main] Log - Token Number :14
-[INFO ] 2024-10-26 15:50:39.243 [main] Log - Token Bike Registration :HR26EZ8245
-[INFO ] 2024-10-26 15:50:39.383 [main] Log - Token Bike Model :SPLENDOR +
-[INFO ] 2024-10-26 15:50:39.522 [main] Log - Token Bike Owner :VIJENDRA KUMAR
-[INFO ] 2024-10-26 15:50:39.650 [main] Log - Token Bike Owner Name :7503496897
-[INFO ] 2024-10-26 15:50:39.773 [main] Log - Token Number :13
-[INFO ] 2024-10-26 15:50:39.908 [main] Log - Token Bike Registration :BR06DG8377
-[INFO ] 2024-10-26 15:50:40.036 [main] Log - Token Bike Model :SPLENDOR+ XTEC
-[INFO ] 2024-10-26 15:50:40.164 [main] Log - Token Bike Owner :MD MANGAL KURAISHI
-[INFO ] 2024-10-26 15:50:40.305 [main] Log - Token Bike Owner Name :7970888917
-[INFO ] 2024-10-26 15:50:40.432 [main] Log - Token Number :12
-[INFO ] 2024-10-26 15:50:40.563 [main] Log - Token Bike Registration :AP40D9231
-[INFO ] 2024-10-26 15:50:40.713 [main] Log - Token Bike Model :PASSION +
-[INFO ] 2024-10-26 15:50:40.841 [main] Log - Token Bike Owner : BASHA SHAIK
-[INFO ] 2024-10-26 15:50:40.966 [main] Log - Token Bike Owner Name :9966214058
-[INFO ] 2024-10-26 15:50:53.140 [main] Log - Element is clickable : logout Button
-[INFO ] 2024-10-26 15:50:59.253 [main] Log - Element is clickable : Logout verification Button
-[DEBUG] 2024-10-26 15:51:00.277 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:51:00.278 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:51:00.278 [main] Log - *******************         Driver Quit       ***********************
-[DEBUG] 2024-10-26 15:51:00.278 [main] Log - ====================================================================================
-[DEBUG] 2024-10-26 15:51:00.278 [main] Log - ===================      Flushing Extent Report      ==============================
+[DEBUG] 2024-10-28 11:18:30.104 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:18:30.106 [main] Log - ==========================      Configuring Extent Report      =====================
+[DEBUG] 2024-10-28 11:18:30.106 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:18:30.106 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:18:30.106 [main] Log -    *********************   Launching Hero Service UI Test App    ******************
+[DEBUG] 2024-10-28 11:18:30.106 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:19:43.607 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:19:43.607 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:19:43.608 [main] Log -                    Start -> Test -> Login with valid credentails and RemeberMe check    
+[DEBUG] 2024-10-28 11:19:43.608 [main] Log -                    ===============================================
+[INFO ] 2024-10-28 11:19:53.519 [main] Log - Value send Successfully : User name
+[INFO ] 2024-10-28 11:19:57.205 [main] Log - Element is clickable : Remember Me Checkbox
+[INFO ] 2024-10-28 11:19:59.406 [main] Log - Element is clickable : Send OTP Button
+[INFO ] 2024-10-28 11:20:05.911 [main] Log - Field is visible : content decs : Resend OTP, in 55s
+[INFO ] 2024-10-28 11:20:05.912 [main] Log - Resend Time : 55
+[INFO ] 2024-10-28 11:20:07.445 [main] Log - Field is visible  : OTP text
+[INFO ] 2024-10-28 11:20:10.397 [main] Log - Field is visible  : Hero Image
+[INFO ] 2024-10-28 11:20:14.220 [main] Log - Field is visible : SubmitButtonState : false
+[INFO ] 2024-10-28 11:20:14.221 [main] Log - Submit button is Disabled
+[INFO ] 2024-10-28 11:20:19.736 [main] Log - Enter the OTP Digit as :1
+[INFO ] 2024-10-28 11:20:21.715 [main] Log - Enter the OTP Digit as :2
+[INFO ] 2024-10-28 11:20:22.954 [main] Log - Enter the OTP Digit as :3
+[INFO ] 2024-10-28 11:20:24.876 [main] Log - Enter the OTP Digit as :4
+[INFO ] 2024-10-28 11:20:27.190 [main] Log - Enter the OTP Digit as :5
+[INFO ] 2024-10-28 11:20:29.035 [main] Log - Enter the OTP Digit as :6
+[INFO ] 2024-10-28 11:20:32.439 [main] Log - Field is visible : SubmitButtonState : true
+[INFO ] 2024-10-28 11:20:32.440 [main] Log - Submit button is Enabled
+[INFO ] 2024-10-28 11:20:33.604 [main] Log - Field is visible  : Hero Image
+[INFO ] 2024-10-28 11:20:37.212 [main] Log - Element is clickable : Hero Image
+[INFO ] 2024-10-28 11:20:40.417 [main] Log - Element is clickable : Submit Button
+[INFO ] 2024-10-28 11:20:52.209 [main] Log - Element is clickable : logout Button
+[INFO ] 2024-10-28 11:20:52.210 [main] Log - Clicked on logout Button
+[INFO ] 2024-10-28 11:20:58.386 [main] Log - Element is clickable : Logout verification Button
+[INFO ] 2024-10-28 11:21:05.832 [main] Log - Element is clickable : Remember Me Checkbox
+[INFO ] 2024-10-28 11:21:07.718 [main] Log - Field is visible : User Id : LAAL11979
+[INFO ] 2024-10-28 11:21:07.719 [main] Log - expecteduserId : LAAL11979
+[INFO ] 2024-10-28 11:21:07.720 [main] Log - actualUserId : LAAL11979
+[INFO ] 2024-10-28 11:21:07.720 [main] Log - Actual value :  Expected value is Match
+[DEBUG] 2024-10-28 11:21:07.801 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:21:07.802 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:21:07.802 [main] Log -                    Start -> Test -> Login with valid credentails and validate customer mobile number with Special characters, Alpahbates, more tha 10 digits    
+[DEBUG] 2024-10-28 11:21:07.802 [main] Log -                    ===============================================
+[INFO ] 2024-10-28 11:21:12.261 [main] Log - Value send Successfully : User name
+[INFO ] 2024-10-28 11:21:14.717 [main] Log - Element is clickable : Send OTP Button
+[INFO ] 2024-10-28 11:21:17.967 [main] Log - Field is visible  : OTP text
+[INFO ] 2024-10-28 11:21:19.269 [main] Log - Field is visible  : Hero Image
+[INFO ] 2024-10-28 11:21:24.074 [main] Log - Field is visible : SubmitButtonState : false
+[INFO ] 2024-10-28 11:21:24.075 [main] Log - Submit button is Disabled
+[INFO ] 2024-10-28 11:21:30.477 [main] Log - Enter the OTP Digit as :1
+[INFO ] 2024-10-28 11:21:32.589 [main] Log - Enter the OTP Digit as :2
+[INFO ] 2024-10-28 11:21:34.740 [main] Log - Enter the OTP Digit as :3
+[INFO ] 2024-10-28 11:21:37.013 [main] Log - Enter the OTP Digit as :4
+[INFO ] 2024-10-28 11:21:38.950 [main] Log - Enter the OTP Digit as :5
+[INFO ] 2024-10-28 11:21:41.258 [main] Log - Enter the OTP Digit as :6
+[INFO ] 2024-10-28 11:21:44.367 [main] Log - Field is visible : SubmitButtonState : true
+[INFO ] 2024-10-28 11:21:44.368 [main] Log - Submit button is Enabled
+[INFO ] 2024-10-28 11:21:45.956 [main] Log - Field is visible  : Hero Image
+[INFO ] 2024-10-28 11:21:48.099 [main] Log - Element is clickable : Hero Image
+[INFO ] 2024-10-28 11:21:52.238 [main] Log - Element is clickable : Submit Button
+[INFO ] 2024-10-28 11:21:55.645 [main] Log - Field is visible  : Token Creation
+[INFO ] 2024-10-28 11:21:56.757 [main] Log - Field is visible  : Scan To Procced Text
+[INFO ] 2024-10-28 11:21:59.528 [main] Log - Element is clickable : Scan Button
+[INFO ] 2024-10-28 11:22:06.427 [main] Log - Element is clickable : Camera Shutter Button
+[INFO ] 2024-10-28 11:22:14.212 [main] Log - Element is clickable : Camera Shutter Button
+[INFO ] 2024-10-28 11:22:31.531 [main] Log - Element is clickable : No Registration Number? Link
+[INFO ] 2024-10-28 11:22:51.075 [main] Log - Value send Successfully : Customer mobile Number
+[INFO ] 2024-10-28 11:22:54.483 [main] Log - Field is visible : Customer mobile Number : 
+[INFO ] 2024-10-28 11:22:54.484 [main] Log - Not able Entered Customer mobile number
+[INFO ] 2024-10-28 11:23:11.600 [main] Log - Element is clickable : No Registration Number? Link
+[INFO ] 2024-10-28 11:23:30.997 [main] Log - Value send Successfully : Customer mobile Number
+[INFO ] 2024-10-28 11:23:34.215 [main] Log - Field is visible : Customer mobile Number : 
+[INFO ] 2024-10-28 11:23:34.216 [main] Log - Not able Entered Customer mobile number
+[INFO ] 2024-10-28 11:23:51.141 [main] Log - Element is clickable : No Registration Number? Link
+[INFO ] 2024-10-28 11:24:10.707 [main] Log - Value send Successfully : Customer mobile Number
+[INFO ] 2024-10-28 11:24:13.884 [main] Log - Field is visible : Customer mobile Number : 1234566777
+[INFO ] 2024-10-28 11:24:13.885 [main] Log - Entered Customer mobile number is :1234566777 and its length is :10
+[INFO ] 2024-10-28 11:24:30.963 [main] Log - Element is clickable : No Registration Number? Link
+[INFO ] 2024-10-28 11:24:50.577 [main] Log - Value send Successfully : Customer mobile Number
+[INFO ] 2024-10-28 11:24:53.678 [main] Log - Field is visible : Customer mobile Number : 9178691691
+[INFO ] 2024-10-28 11:24:53.679 [main] Log - Entered Customer mobile number is :9178691691 and its length is :10
+[INFO ] 2024-10-28 11:25:10.713 [main] Log - Element is clickable : logout Button
+[INFO ] 2024-10-28 11:25:10.714 [main] Log - Clicked on logout Button
+[INFO ] 2024-10-28 11:25:16.800 [main] Log - Element is clickable : Logout verification Button
+[DEBUG] 2024-10-28 11:25:17.866 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:25:17.866 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:25:17.867 [main] Log -                    Start -> Test -> Login with valid credentails, validate camera cancel button, Scan and Scan again functionality    
+[DEBUG] 2024-10-28 11:25:17.867 [main] Log -                    ===============================================
+[INFO ] 2024-10-28 11:25:22.186 [main] Log - Value send Successfully : User name
+[INFO ] 2024-10-28 11:25:24.491 [main] Log - Element is clickable : Send OTP Button
+[INFO ] 2024-10-28 11:25:27.225 [main] Log - Field is visible  : OTP text
+[INFO ] 2024-10-28 11:25:28.821 [main] Log - Field is visible  : Hero Image
+[INFO ] 2024-10-28 11:25:32.383 [main] Log - Field is visible : SubmitButtonState : false
+[INFO ] 2024-10-28 11:25:32.384 [main] Log - Submit button is Disabled
+[INFO ] 2024-10-28 11:25:38.476 [main] Log - Enter the OTP Digit as :1
+[INFO ] 2024-10-28 11:25:40.389 [main] Log - Enter the OTP Digit as :2
+[INFO ] 2024-10-28 11:25:42.708 [main] Log - Enter the OTP Digit as :3
+[INFO ] 2024-10-28 11:25:44.495 [main] Log - Enter the OTP Digit as :4
+[INFO ] 2024-10-28 11:25:46.857 [main] Log - Enter the OTP Digit as :5
+[INFO ] 2024-10-28 11:25:49.214 [main] Log - Enter the OTP Digit as :6
+[INFO ] 2024-10-28 11:25:52.300 [main] Log - Field is visible : SubmitButtonState : true
+[INFO ] 2024-10-28 11:25:52.301 [main] Log - Submit button is Enabled
+[INFO ] 2024-10-28 11:25:53.921 [main] Log - Field is visible  : Hero Image
+[INFO ] 2024-10-28 11:25:56.034 [main] Log - Element is clickable : Hero Image
+[INFO ] 2024-10-28 11:25:59.497 [main] Log - Element is clickable : Submit Button
+[INFO ] 2024-10-28 11:26:02.914 [main] Log - Field is visible  : Token Creation
+[INFO ] 2024-10-28 11:26:04.037 [main] Log - Field is visible  : Scan To Procced Text
+[INFO ] 2024-10-28 11:26:06.680 [main] Log - Element is clickable : Scan Button
+[INFO ] 2024-10-28 11:26:10.721 [main] Log - Click Camera Cancel button
+[INFO ] 2024-10-28 11:26:17.368 [main] Log - Element is clickable : Scan Button
+[INFO ] 2024-10-28 11:26:22.355 [main] Log - Element is clickable : Camera Shutter Button
+[INFO ] 2024-10-28 11:26:34.108 [main] Log - Element is clickable : Camera Shutter Button
+[INFO ] 2024-10-28 11:26:40.775 [main] Log - Element is clickable : Scan Again Button
+[INFO ] 2024-10-28 11:26:45.827 [main] Log - Element is clickable : Camera Shutter Button
+[INFO ] 2024-10-28 11:26:57.536 [main] Log - Element is clickable : Camera Shutter Button
+[INFO ] 2024-10-28 11:27:09.160 [main] Log - Element is clickable : logout Button
+[INFO ] 2024-10-28 11:27:09.160 [main] Log - Clicked on logout Button
+[INFO ] 2024-10-28 11:27:15.236 [main] Log - Element is clickable : Logout verification Button
+[DEBUG] 2024-10-28 11:27:16.283 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:27:16.284 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:27:16.284 [main] Log -                    Start -> Test -> Login with valid credentails and checking the online page    
+[DEBUG] 2024-10-28 11:27:16.284 [main] Log -                    ===============================================
+[INFO ] 2024-10-28 11:27:21.326 [main] Log - Value send Successfully : User name
+[INFO ] 2024-10-28 11:27:23.747 [main] Log - Element is clickable : Send OTP Button
+[INFO ] 2024-10-28 11:27:26.758 [main] Log - Field is visible  : OTP text
+[INFO ] 2024-10-28 11:27:28.145 [main] Log - Field is visible  : Hero Image
+[INFO ] 2024-10-28 11:27:31.943 [main] Log - Field is visible : SubmitButtonState : false
+[INFO ] 2024-10-28 11:27:31.944 [main] Log - Submit button is Disabled
+[INFO ] 2024-10-28 11:27:37.767 [main] Log - Enter the OTP Digit as :1
+[INFO ] 2024-10-28 11:27:39.751 [main] Log - Enter the OTP Digit as :2
+[INFO ] 2024-10-28 11:27:41.484 [main] Log - Enter the OTP Digit as :3
+[INFO ] 2024-10-28 11:27:43.817 [main] Log - Enter the OTP Digit as :4
+[INFO ] 2024-10-28 11:27:45.559 [main] Log - Enter the OTP Digit as :5
+[INFO ] 2024-10-28 11:27:47.401 [main] Log - Enter the OTP Digit as :6
+[INFO ] 2024-10-28 11:27:50.082 [main] Log - Field is visible : SubmitButtonState : true
+[INFO ] 2024-10-28 11:27:50.082 [main] Log - Submit button is Enabled
+[INFO ] 2024-10-28 11:27:51.694 [main] Log - Field is visible  : Hero Image
+[INFO ] 2024-10-28 11:27:54.769 [main] Log - Element is clickable : Hero Image
+[INFO ] 2024-10-28 11:27:58.287 [main] Log - Element is clickable : Submit Button
+[INFO ] 2024-10-28 11:28:02.534 [main] Log - Element is clickable : online Bookings Footer Link
+[INFO ] 2024-10-28 11:28:14.004 [main] Log - Field is visible  : Online Bookings Header
+[INFO ] 2024-10-28 11:28:15.336 [main] Log - Field is visible : On Booking text : Currently, there is no booking available for display
+[INFO ] 2024-10-28 11:28:15.337 [main] Log - actualText : Currently, there is no booking available for display
+[INFO ] 2024-10-28 11:28:15.337 [main] Log - Expected Text : Currently, there is no booking available for display
+[INFO ] 2024-10-28 11:28:15.338 [main] Log - Actual value :  Expected value is Match
+[INFO ] 2024-10-28 11:28:26.706 [main] Log - Element is clickable : Logout Button
+[INFO ] 2024-10-28 11:28:32.766 [main] Log - Element is clickable : Logout verification Button
+[DEBUG] 2024-10-28 11:28:33.817 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:28:33.818 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:28:33.818 [main] Log -                    Start -> Test -> Login with valid credentails and checking the online page search box for different enteries    
+[DEBUG] 2024-10-28 11:28:33.818 [main] Log -                    ===============================================
+[INFO ] 2024-10-28 11:28:38.570 [main] Log - Value send Successfully : User name
+[INFO ] 2024-10-28 11:28:40.916 [main] Log - Element is clickable : Send OTP Button
+[INFO ] 2024-10-28 11:28:43.381 [main] Log - Field is visible  : OTP text
+[INFO ] 2024-10-28 11:28:45.032 [main] Log - Field is visible  : Hero Image
+[INFO ] 2024-10-28 11:28:48.529 [main] Log - Field is visible : SubmitButtonState : false
+[INFO ] 2024-10-28 11:28:48.530 [main] Log - Submit button is Disabled
+[INFO ] 2024-10-28 11:28:54.584 [main] Log - Enter the OTP Digit as :1
+[INFO ] 2024-10-28 11:28:56.542 [main] Log - Enter the OTP Digit as :2
+[INFO ] 2024-10-28 11:28:58.802 [main] Log - Enter the OTP Digit as :3
+[INFO ] 2024-10-28 11:29:00.116 [main] Log - Enter the OTP Digit as :4
+[INFO ] 2024-10-28 11:29:01.366 [main] Log - Enter the OTP Digit as :5
+[INFO ] 2024-10-28 11:29:03.118 [main] Log - Enter the OTP Digit as :6
+[INFO ] 2024-10-28 11:29:05.813 [main] Log - Field is visible : SubmitButtonState : true
+[INFO ] 2024-10-28 11:29:05.814 [main] Log - Submit button is Enabled
+[INFO ] 2024-10-28 11:29:07.184 [main] Log - Field is visible  : Hero Image
+[INFO ] 2024-10-28 11:29:09.330 [main] Log - Element is clickable : Hero Image
+[INFO ] 2024-10-28 11:29:12.157 [main] Log - Element is clickable : Submit Button
+[INFO ] 2024-10-28 11:29:16.181 [main] Log - Element is clickable : online Bookings Footer Link
+[INFO ] 2024-10-28 11:29:27.044 [main] Log - Field is visible  : Online Bookings Header
+[INFO ] 2024-10-28 11:29:28.296 [main] Log - Field is visible : On Booking text : Currently, there is no booking available for display
+[INFO ] 2024-10-28 11:29:28.297 [main] Log - actualText : Currently, there is no booking available for display
+[INFO ] 2024-10-28 11:29:28.297 [main] Log - Expected Text : Currently, there is no booking available for display
+[INFO ] 2024-10-28 11:29:28.298 [main] Log - Actual value :  Expected value is Match
+[INFO ] 2024-10-28 11:29:33.812 [main] Log - Value send Successfully : Enter in search box
+[INFO ] 2024-10-28 11:29:37.430 [main] Log - Element is clickable : Search Button
+[INFO ] 2024-10-28 11:29:39.747 [main] Log - Field is visible : On Booking text : Currently, there is no booking available for display
+[INFO ] 2024-10-28 11:29:41.222 [main] Log - Field is visible : Search box text : Satyapal
+[INFO ] 2024-10-28 11:29:41.223 [main] Log - Actual value :  Expected value is Match
+[INFO ] 2024-10-28 11:29:47.472 [main] Log - Value send Successfully : Enter in search box
+[INFO ] 2024-10-28 11:29:50.860 [main] Log - Element is clickable : Search Button
+[INFO ] 2024-10-28 11:29:53.368 [main] Log - Field is visible : On Booking text : Currently, there is no booking available for display
+[INFO ] 2024-10-28 11:29:54.757 [main] Log - Field is visible : Search box text : SatyapalPassion+
+[INFO ] 2024-10-28 11:29:54.758 [main] Log - Actual value :  Expected value is Match
+[INFO ] 2024-10-28 11:30:00.760 [main] Log - Value send Successfully : Enter in search box
+[INFO ] 2024-10-28 11:30:04.366 [main] Log - Element is clickable : Search Button
+[INFO ] 2024-10-28 11:30:06.674 [main] Log - Field is visible : On Booking text : Currently, there is no booking available for display
+[INFO ] 2024-10-28 11:30:07.948 [main] Log - Field is visible : Search box text : AS15S4616
+[INFO ] 2024-10-28 11:30:07.949 [main] Log - Actual value :  Expected value is Match
+[INFO ] 2024-10-28 11:30:14.312 [main] Log - Value send Successfully : Enter in search box
+[INFO ] 2024-10-28 11:30:17.700 [main] Log - Element is clickable : Search Button
+[INFO ] 2024-10-28 11:30:20.181 [main] Log - Field is visible : On Booking text : Currently, there is no booking available for display
+[INFO ] 2024-10-28 11:30:21.583 [main] Log - Field is visible : Search box text : 8687897979
+[INFO ] 2024-10-28 11:30:21.584 [main] Log - Actual value :  Expected value is Match
+[INFO ] 2024-10-28 11:30:32.971 [main] Log - Element is clickable : Logout Button
+[INFO ] 2024-10-28 11:30:39.018 [main] Log - Element is clickable : Logout verification Button
+[DEBUG] 2024-10-28 11:30:40.056 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:30:40.056 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:30:40.056 [main] Log -                    Start -> Test -> Login with valid credentails with Owner mobile number    
+[DEBUG] 2024-10-28 11:30:40.056 [main] Log -                    ===============================================
+[INFO ] 2024-10-28 11:30:44.245 [main] Log - Value send Successfully : User name
+[INFO ] 2024-10-28 11:30:46.540 [main] Log - Element is clickable : Send OTP Button
+[INFO ] 2024-10-28 11:30:49.652 [main] Log - Field is visible  : OTP text
+[INFO ] 2024-10-28 11:30:51.032 [main] Log - Field is visible  : Hero Image
+[INFO ] 2024-10-28 11:30:54.248 [main] Log - Field is visible : SubmitButtonState : false
+[INFO ] 2024-10-28 11:30:54.249 [main] Log - Submit button is Disabled
+[INFO ] 2024-10-28 11:30:59.702 [main] Log - Enter the OTP Digit as :1
+[INFO ] 2024-10-28 11:31:01.460 [main] Log - Enter the OTP Digit as :2
+[INFO ] 2024-10-28 11:31:03.206 [main] Log - Enter the OTP Digit as :3
+[INFO ] 2024-10-28 11:31:05.505 [main] Log - Enter the OTP Digit as :4
+[INFO ] 2024-10-28 11:31:07.713 [main] Log - Enter the OTP Digit as :5
+[INFO ] 2024-10-28 11:31:09.528 [main] Log - Enter the OTP Digit as :6
+[INFO ] 2024-10-28 11:31:12.490 [main] Log - Field is visible : SubmitButtonState : true
+[INFO ] 2024-10-28 11:31:12.490 [main] Log - Submit button is Enabled
+[INFO ] 2024-10-28 11:31:13.850 [main] Log - Field is visible  : Hero Image
+[INFO ] 2024-10-28 11:31:15.631 [main] Log - Element is clickable : Hero Image
+[INFO ] 2024-10-28 11:31:18.748 [main] Log - Element is clickable : Submit Button
+[INFO ] 2024-10-28 11:31:22.196 [main] Log - Field is visible  : Token Creation
+[INFO ] 2024-10-28 11:31:23.151 [main] Log - Field is visible  : Scan To Procced Text
+[INFO ] 2024-10-28 11:31:25.791 [main] Log - Element is clickable : Scan Button
+[INFO ] 2024-10-28 11:31:31.326 [main] Log - Element is clickable : Camera Shutter Button
+[INFO ] 2024-10-28 11:31:37.084 [main] Log - Element is clickable : Camera Shutter Button
+[INFO ] 2024-10-28 11:31:49.659 [main] Log - Element is clickable : No Registration Number? Link
+[INFO ] 2024-10-28 11:32:09.231 [main] Log - Value send Successfully : Customer mobile Number
+[INFO ] 2024-10-28 11:32:12.570 [main] Log - Field is visible : Customer mobile Number : 9649736363
+[INFO ] 2024-10-28 11:32:12.571 [main] Log - Entered Customer mobile number is :9649736363 and its length is :10
+[INFO ] 2024-10-28 11:32:19.124 [main] Log - Element is clickable : Next Button
+[INFO ] 2024-10-28 11:32:23.900 [main] Log - Field is visible : Bike Registration Number : RJ02JB9203
+[INFO ] 2024-10-28 11:32:25.499 [main] Log - Field is visible : Bike Model : SPLENDOR+ XTEC
+[INFO ] 2024-10-28 11:32:27.134 [main] Log - Field is visible : Bike Owner Name : IQBAL MOHAMMAD
+[INFO ] 2024-10-28 11:32:28.788 [main] Log - Field is visible : Bike Owner Mobile Number : 9649736363
+[INFO ] 2024-10-28 11:32:32.527 [main] Log - Element is clickable : Token Selection
+[INFO ] 2024-10-28 11:32:34.920 [main] Log - Element is clickable : Assign Next Button
+[INFO ] 2024-10-28 11:32:37.406 [main] Log - Element is clickable : Assign Token
+[INFO ] 2024-10-28 11:32:40.615 [main] Log - Field is visible : Assigned Token Number : 13
+[INFO ] 2024-10-28 11:32:41.580 [main] Log - Field is visible : Assigned Bike Registration Number : RJ 02 JB 9203 
+[INFO ] 2024-10-28 11:32:42.575 [main] Log - Field is visible : Assigned Bike Model : SPLENDOR+ XTEC
+[INFO ] 2024-10-28 11:32:43.625 [main] Log - Element is clickable : Ok button
+[INFO ] 2024-10-28 11:32:46.819 [main] Log - Element is clickable : Todays Token Link Footer Link
+[INFO ] 2024-10-28 11:32:50.951 [main] Log - Field is visible : ticket Number : 13
+[INFO ] 2024-10-28 11:32:54.040 [main] Log - Field is visible : Bike Model : SPLENDOR+ XTEC
+[INFO ] 2024-10-28 11:32:55.893 [main] Log - Field is visible : Bike Registration Number : RJ02JB9203
+[INFO ] 2024-10-28 11:32:58.039 [main] Log - Field is visible : Bike Owner Mobile Number : 9649736363
+[INFO ] 2024-10-28 11:33:00.387 [main] Log - Field is visible : Bike Owner Name : IQBAL MOHAMMAD
+[INFO ] 2024-10-28 11:33:12.580 [main] Log - Element is clickable : logout Button
+[INFO ] 2024-10-28 11:33:18.812 [main] Log - Element is clickable : Logout verification Button
+[DEBUG] 2024-10-28 11:33:19.864 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:33:19.864 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:33:19.864 [main] Log -                    Start -> Test -> Login with valid credentails and valid Vehicle registration number    
+[DEBUG] 2024-10-28 11:33:19.864 [main] Log -                    ===============================================
+[INFO ] 2024-10-28 11:33:25.084 [main] Log - Value send Successfully : User name
+[INFO ] 2024-10-28 11:33:27.307 [main] Log - Element is clickable : Send OTP Button
+[INFO ] 2024-10-28 11:33:30.342 [main] Log - Field is visible  : OTP text
+[INFO ] 2024-10-28 11:33:31.705 [main] Log - Field is visible  : Hero Image
+[INFO ] 2024-10-28 11:33:35.504 [main] Log - Field is visible : SubmitButtonState : false
+[INFO ] 2024-10-28 11:33:35.504 [main] Log - Submit button is Disabled
+[INFO ] 2024-10-28 11:33:41.872 [main] Log - Enter the OTP Digit as :1
+[INFO ] 2024-10-28 11:33:44.222 [main] Log - Enter the OTP Digit as :2
+[INFO ] 2024-10-28 11:33:45.081 [main] Log - Enter the OTP Digit as :3
+[INFO ] 2024-10-28 11:33:46.956 [main] Log - Enter the OTP Digit as :4
+[INFO ] 2024-10-28 11:33:48.472 [main] Log - Enter the OTP Digit as :5
+[INFO ] 2024-10-28 11:33:50.251 [main] Log - Enter the OTP Digit as :6
+[INFO ] 2024-10-28 11:33:53.235 [main] Log - Field is visible : SubmitButtonState : true
+[INFO ] 2024-10-28 11:33:53.236 [main] Log - Submit button is Enabled
+[INFO ] 2024-10-28 11:33:54.278 [main] Log - Field is visible  : Hero Image
+[INFO ] 2024-10-28 11:33:56.434 [main] Log - Element is clickable : Hero Image
+[INFO ] 2024-10-28 11:33:59.528 [main] Log - Element is clickable : Submit Button
+[INFO ] 2024-10-28 11:34:03.312 [main] Log - Field is visible  : Token Creation
+[INFO ] 2024-10-28 11:34:04.290 [main] Log - Field is visible  : Scan To Procced Text
+[INFO ] 2024-10-28 11:34:06.822 [main] Log - Element is clickable : Scan Button
+[INFO ] 2024-10-28 11:34:11.690 [main] Log - Element is clickable : Camera Shutter Button
+[INFO ] 2024-10-28 11:34:18.102 [main] Log - Element is clickable : Camera Shutter Button
+[INFO ] 2024-10-28 11:34:27.477 [main] Log - Value send Successfully : Bike Registration Numer
+[INFO ] 2024-10-28 11:34:29.776 [main] Log - Element is clickable : Next Button
+[INFO ] 2024-10-28 11:34:34.146 [main] Log - Field is visible : Bike Registration Number : TS08JR4663
+[INFO ] 2024-10-28 11:34:35.502 [main] Log - Field is visible : Bike Model : SPLENDOR +
+[INFO ] 2024-10-28 11:34:36.874 [main] Log - Field is visible : Bike Owner Name : ARJUN KUMAR
+[INFO ] 2024-10-28 11:34:38.334 [main] Log - Field is visible : Bike Owner Mobile Number : 8383938505
+[INFO ] 2024-10-28 11:34:41.989 [main] Log - Element is clickable : Token Selection
+[INFO ] 2024-10-28 11:34:44.082 [main] Log - Element is clickable : Assign Next Button
+[INFO ] 2024-10-28 11:34:46.542 [main] Log - Element is clickable : Assign Token
+[INFO ] 2024-10-28 11:34:49.550 [main] Log - Field is visible : Assigned Token Number : 14
+[INFO ] 2024-10-28 11:34:50.475 [main] Log - Field is visible : Assigned Bike Registration Number : TS 08 JR 4663 
+[INFO ] 2024-10-28 11:34:51.424 [main] Log - Field is visible : Assigned Bike Model : SPLENDOR +
+[INFO ] 2024-10-28 11:34:52.388 [main] Log - Element is clickable : Ok button
+[INFO ] 2024-10-28 11:34:55.236 [main] Log - Element is clickable : Todays Token Link Footer Link
+[INFO ] 2024-10-28 11:34:58.818 [main] Log - Field is visible : ticket Number : 14
+[INFO ] 2024-10-28 11:35:01.032 [main] Log - Field is visible : Bike Model : SPLENDOR +
+[INFO ] 2024-10-28 11:35:02.927 [main] Log - Field is visible : Bike Registration Number : TS08JR4663
+[INFO ] 2024-10-28 11:35:05.422 [main] Log - Field is visible : Bike Owner Mobile Number : 8383938505
+[INFO ] 2024-10-28 11:35:07.684 [main] Log - Field is visible : Bike Owner Name : ARJUN KUMAR
+[INFO ] 2024-10-28 11:35:19.766 [main] Log - Element is clickable : logout Button
+[INFO ] 2024-10-28 11:35:25.714 [main] Log - Element is clickable : Logout verification Button
+[DEBUG] 2024-10-28 11:35:26.777 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:35:26.777 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:35:26.777 [main] Log -                    Start -> Test -> Login with valid credentails and validate Todays Token info    
+[DEBUG] 2024-10-28 11:35:26.777 [main] Log -                    ===============================================
+[INFO ] 2024-10-28 11:35:32.693 [main] Log - Value send Successfully : User name
+[INFO ] 2024-10-28 11:35:35.013 [main] Log - Element is clickable : Send OTP Button
+[INFO ] 2024-10-28 11:35:38.396 [main] Log - Field is visible  : OTP text
+[INFO ] 2024-10-28 11:35:39.538 [main] Log - Field is visible  : Hero Image
+[INFO ] 2024-10-28 11:35:42.640 [main] Log - Field is visible : SubmitButtonState : false
+[INFO ] 2024-10-28 11:35:42.641 [main] Log - Submit button is Disabled
+[INFO ] 2024-10-28 11:35:48.760 [main] Log - Enter the OTP Digit as :1
+[INFO ] 2024-10-28 11:35:50.611 [main] Log - Enter the OTP Digit as :2
+[INFO ] 2024-10-28 11:35:51.956 [main] Log - Enter the OTP Digit as :3
+[INFO ] 2024-10-28 11:35:53.215 [main] Log - Enter the OTP Digit as :4
+[INFO ] 2024-10-28 11:35:55.016 [main] Log - Enter the OTP Digit as :5
+[INFO ] 2024-10-28 11:35:57.330 [main] Log - Enter the OTP Digit as :6
+[INFO ] 2024-10-28 11:36:01.073 [main] Log - Field is visible : SubmitButtonState : true
+[INFO ] 2024-10-28 11:36:01.073 [main] Log - Submit button is Enabled
+[INFO ] 2024-10-28 11:36:02.385 [main] Log - Field is visible  : Hero Image
+[INFO ] 2024-10-28 11:36:04.262 [main] Log - Element is clickable : Hero Image
+[INFO ] 2024-10-28 11:36:06.886 [main] Log - Element is clickable : Submit Button
+[INFO ] 2024-10-28 11:36:10.330 [main] Log - Field is visible  : Token Creation
+[INFO ] 2024-10-28 11:36:11.243 [main] Log - Field is visible  : Scan To Procced Text
+[INFO ] 2024-10-28 11:36:13.778 [main] Log - Field is visible : TokeNumber : 6
+[INFO ] 2024-10-28 11:36:13.778 [main] Log - Today's Token number are :6
+[INFO ] 2024-10-28 11:36:15.200 [main] Log - Element is clickable : Todays Token Link Link
+[INFO ] 2024-10-28 11:36:19.590 [main] Log - Token Number :14
+[INFO ] 2024-10-28 11:36:19.692 [main] Log - Token Bike Registration :TS08JR4663
+[INFO ] 2024-10-28 11:36:19.797 [main] Log - Token Bike Model :SPLENDOR +
+[INFO ] 2024-10-28 11:36:19.911 [main] Log - Token Bike Owner :ARJUN KUMAR
+[INFO ] 2024-10-28 11:36:20.018 [main] Log - Token Bike Owner Name :8383938505
+[INFO ] 2024-10-28 11:36:20.121 [main] Log - Token Number :13
+[INFO ] 2024-10-28 11:36:20.230 [main] Log - Token Bike Registration :RJ02JB9203
+[INFO ] 2024-10-28 11:36:20.333 [main] Log - Token Bike Model :SPLENDOR+ XTEC
+[INFO ] 2024-10-28 11:36:20.444 [main] Log - Token Bike Owner :IQBAL MOHAMMAD
+[INFO ] 2024-10-28 11:36:20.555 [main] Log - Token Bike Owner Name :9649736363
+[INFO ] 2024-10-28 11:36:20.658 [main] Log - Token Number :12
+[INFO ] 2024-10-28 11:36:20.760 [main] Log - Token Bike Registration :AP40D9231
+[INFO ] 2024-10-28 11:36:20.865 [main] Log - Token Bike Model :PASSION +
+[INFO ] 2024-10-28 11:36:20.966 [main] Log - Token Bike Owner : BASHA SHAIK
+[INFO ] 2024-10-28 11:36:21.081 [main] Log - Token Bike Owner Name :9966214058
+[INFO ] 2024-10-28 11:36:33.026 [main] Log - Element is clickable : logout Button
+[INFO ] 2024-10-28 11:36:39.067 [main] Log - Element is clickable : Logout verification Button
+[DEBUG] 2024-10-28 11:36:40.096 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:36:40.097 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:36:40.097 [main] Log - *******************         Driver Quit       ***********************
+[DEBUG] 2024-10-28 11:36:40.097 [main] Log - ====================================================================================
+[DEBUG] 2024-10-28 11:36:40.097 [main] Log - ===================      Flushing Extent Report      ==============================

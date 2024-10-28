@@ -11,7 +11,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 		glue="service_APP.StepDefinition",
 		dryRun = false,				// if check test case method present or not as per feature file
 		monochrome = true,
-		tags = "@prod and not @OTP1",       //scenarios under @sanity tag will be executed "@AdminLogin or @Sanity", 
+		tags = "@prod",       //scenarios under @sanity tag will be executed "@AdminLogin or @Sanity", 
 		plugin = {"summary",
 				  "html:Reports/cucumber_reports.html",
 		          "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}

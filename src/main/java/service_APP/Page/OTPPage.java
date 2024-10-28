@@ -2,6 +2,7 @@ package service_APP.Page;
 
 import java.util.List;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
@@ -37,6 +38,10 @@ public class OTPPage extends BasePage {
 	@iOSXCUITFindBy(xpath = "")
 	@FindBy(xpath = "(//android.widget.TextView[@text='-'])")
 	private List<WebElement> otpDigits;
+	
+	@iOSXCUITFindBy(xpath = "")
+	@FindBy(xpath = "(//android.widget.TextView[@text='1'])")
+	private List<WebElement> otpDigits1;
 
 	@iOSXCUITFindBy(xpath = "")
 	@FindBy(xpath = "//android.widget.TextView[@text='Submit']/..")
@@ -100,41 +105,39 @@ public class OTPPage extends BasePage {
 		if (driver == null) {
 			System.out.println("Driver is null!!!");
 		}
-//		Actions action = new Actions(driver);
 		try {
 			action = new Actions(driver);
 			for (WebElement otp : otpDigits) {
 				otp.click();
 				action.sendKeys("" + i).perform();
 				log.info("Enter the OTP Digit as :" + i);
-//				ExtentCucumberAdapter.getCurrentStep().pass("Enter the OTP Digit as :" + i);
-
 				i++;
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
 			log.info("Enter the  OTP Failed ");
-//				ExtentCucumberAdapter.getCurrentStep().fail("Enter the  OTP Failed ");
-//				takeScreenshot();
+
 		}
 
 	}
-//	public void clearOTP() {
-//		for (WebElement otp : otpDigits) {
-//			System.out.println("Keys.BACK_SPACE");
-//			EnterKeys(Keys.BACK_SPACE);
-//			
-//		}
-//		Sleep(1000);
-//	try {
-//		for (WebElement otp : otpDigits) {
-//			otp.clear();
-//		}
-//	}catch(Exception e) {
-//			e.printStackTrace();
-//		}
-//		testResultUtilities.logger.log(LogStatus.PASS, "Clear the OTP");
-//	}
+	
+	public void clearOTP() {
+		
+		Actions action;
+		try {
+			action = new Actions(driver);
+			for (WebElement otp : otpDigits1) {
+				otp.click();
+				action.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).sendKeys(Keys.BACK_SPACE).build().perform();
+				log.info("clear the digits");
+				break;			
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			log.info("Clear the OTP Failed");
+		}
+	}
+
 
 	public void getResendOTPtext() {
 		String text = Library.visible_element_attribute(driver, resendOTPText, "content-desc", "content decs");
